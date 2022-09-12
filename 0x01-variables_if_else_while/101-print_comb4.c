@@ -13,6 +13,7 @@
  */
 int main(void)
 {
+
 	int digit1, digit2, digit3;
 
 	for (digit1 = 0; digit1 < 8; digit1++)
@@ -27,11 +28,15 @@ int main(void)
 
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 					continue;			
+	
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
+	
 	putchar('\n');
+
 	return (0);
+
 }
