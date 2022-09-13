@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point of C program.
- * This program prints _putchar followed by a new line 
+ * This program prints _putchar followed by a new line
  * Return: 0 as success
  */
 
