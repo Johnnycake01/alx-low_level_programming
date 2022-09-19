@@ -4,7 +4,8 @@
  * 1-swap - This function swaps the value of two
  * interger
  *
- * @n: The pointer to be updated.
+ * @a: the first value to be swapped.
+ * @b: the second value to be swapped
  *
  * Return: Nothing
  */
