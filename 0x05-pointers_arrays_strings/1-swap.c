@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 1-swap - This function swaps the value of two
+ * swap_int - This function swaps the value of two
  * interger
  *
  * @a: the first value to be swapped.
