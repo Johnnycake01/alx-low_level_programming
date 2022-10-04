@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int lenght_s1, lenght_s2, i;
+	unsigned int lenght_s1, lenght_s2, i, totalLenght;
 	char *new_str;
 
 	if (s1 == NULL)
@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	for (lenght_s2 = 0; s2[lenght_s2]; lenght_s2++)
 		;
 
-	int totalLenght = lenght_s1 + lenght_s2 + 1;
+	totalLenght = lenght_s1 + lenght_s2 + 1;
 
 	new_str = malloc(sizeof(char) * totalLenght);
 
